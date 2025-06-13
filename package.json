@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "check-all": "npx eslint ./src && npx tsc -b --pretty false --noEmit"
+    "check-all": "npx eslint ./src && npx tsc -b --pretty false --noEmit",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
