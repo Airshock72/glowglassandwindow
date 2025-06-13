@@ -1,0 +1,14 @@
+@layer utilities {
+    .font-sans {
+        font-family: var(--font-family-noto-sans), sans-serif !important;
+    }
+    .font-firago {
+        font-family: var(--font-family-fira-go), sans-serif !important;
+    }
+    .font-small-caps {
+        font-variant: all-small-caps !important;
+    }
+    .font-variant-none {
+        font-variant: none !important;
+    }
+}
