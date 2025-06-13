@@ -97,7 +97,7 @@ const items = [
 
 const AppHeader = () => {
   return (
-    <Header>
+    <Header className='bg-[#062441]!'>
       <Flex className='w-5xl! mx-auto!' align='center' justify='space-between'>
         <Flex className='cursor-pointer!'>
           <MainLogo />
@@ -110,7 +110,7 @@ const AppHeader = () => {
           theme='dark'
           mode='horizontal'
           items={items}
-          className='min-w-0!'
+          className='min-w-0! bg-[#062441]!'
           style={{ flex: 1 }}
         />
       </Flex>

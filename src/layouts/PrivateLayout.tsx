@@ -9,7 +9,7 @@ const PrivateLayout = () => {
     <Layout className='h-dvh'>
       <Layout>
         <AppHeader />
-        <Content className='bg-slate-100 p-5 overflow-auto'>
+        <Content className='overflow-auto min-h-screen bg-[#c8e3fb]!'>
           <Outlet />
         </Content>
       </Layout>
