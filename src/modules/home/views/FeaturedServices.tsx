@@ -71,7 +71,7 @@ const ServiceCard = ({ title, image, description, buttonText }: typeof services[
 const FeaturedServices = () => {
   return (
     <Row className='w-7xl! mx-auto!' align='middle'>
-      <Title level={2} className='text-cyan-500! mb-2'>Featured Services</Title>
+      <Title level={2} className='mb-2'>Featured Services</Title>
       <Row gutter={[40, 40]}>
         {services.map(service => (
           <Col xs={24} md={12} key={service.key}>
